@@ -1,0 +1,45 @@
+[
+  {
+    "role": "system",
+    "content": "Hello! @showcards(topicList) Which topic would you like to talk about?"
+  },
+  {
+    "role": "system",
+    "content": "Here's some information about Topic 1.",
+    "customPayload": {
+      "contentCardData": {
+        "title": "Topic 1",
+        "content": {
+          "title": "Topic 1",
+          "description": "This is a detailed description of Topic 1. It contains information, explanations, and key points about the topic.",
+          "imageURL": "https://example.com/topic1-image.jpg",
+          "videoURL": "https://example.com/topic1-video.mp4"
+        }
+      }
+    }
+  },
+  {
+    "role": "system",
+    "content": "Here's some information about Topic 2.",
+    "customPayload": {
+      "contentCardData": {
+        "title": "Topic 2",
+        "description": "This is a detailed description of Topic 2. It contains information, explanations, and key points about the topic.",
+        "imageURL": "https://example.com/topic1-image.jpg",
+        "videoURL": "https://example.com/topic1-video.mp4"
+      }
+    }
+  },
+  {
+    "role": "system",
+    "content": "Here's some information about Topic 3.",
+    "customPayload": {
+      "contentCardData": {
+        "title": "Topic 3",
+        "description": "This is a detailed description of Topic 3. It contains information, explanations, and key points about the topic.",
+        "imageURL": "https://example.com/topic1-image.jpg",
+        "videoURL": "https://example.com/topic1-video.mp4"
+      }
+    }
+  }
+]
