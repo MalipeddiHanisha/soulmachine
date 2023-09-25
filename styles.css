@@ -1,0 +1,38 @@
+body {
+  background: rgb(98, 224, 214);
+  background-image: url('https://unsplash.com/photos/ugnrXk1129g'); /* External image link ko specify karein */
+  background-size: cover; /* Image ko puri screen par cover karne ke liye */
+  background-repeat: no-repeat; /* Image ko repeat hone se bachane ke liye */
+  background-attachment: fixed;
+}
+
+/* #sm-video {
+  border-radius: 50%;
+  overflow: hidden;
+} */
+header {
+  background-color: rgb(2, 102, 102);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+/* Header text ka style */
+header h1 {
+  margin: 0; /* Remove default margin for h1 element */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Button ke beech mein gap add karen */
+  margin-top: 20px; /* Header se thoda niche layen */
+  size: 20%;
+}
+
+button {
+  width: 150px; /* Button ki width ko badhaye */
+  height: 40px; /* Button ki height ko badhaye */
+  font-size: 18px; /* Button ke font size ko bhi badhaye (agar chahiye) */
+}
+
